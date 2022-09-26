@@ -1,0 +1,179 @@
+*{
+    margin: 0;padding: 0;
+    overflow-x: hidden;
+}
+.sidebar{
+    position: fixed;
+width: 239px;
+height: 1466px;
+left: 0px;
+top: 61px;
+background: #FFFFFF;
+box-shadow: 4px 0px 16px rgba(30, 30, 30, 0.08);
+
+}
+body{
+  
+
+background: #EFF3F9;
+}
+.header-base{
+    position: fixed;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 0;
+    background: #FFFFFF;
+    box-shadow: 4px 0px 16px 10px rgba(30, 30, 30, 0.08);
+   
+z-index: 23;
+
+}
+.search{
+   
+  position: fixed;
+  width: 265.13px;
+  height: 22px;
+  left: 320.5px;
+  top: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-style: none;
+  opacity: 0.3;
+  font-size: 12px;;
+opacity: 0.3;
+cursor: pointer;
+}
+#logo{
+  position: absolute;
+  width: 121px;
+  height: 30px;
+  left: 84px;
+  top: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+   
+}
+.img{
+    position: absolute;
+    width: 1200px;
+    height: 568.53px;
+    left: 240px;
+    top: 61px;
+background: url("hero-image.png");
+}
+.secondimg{
+    position: absolute;
+width: 1200px;
+height: 250px;
+left: 240px;
+top: 629px;
+background: url("image2.png");
+}
+.img3{
+    position: absolute;
+width: 1200px;
+height: 590.83px;
+left: 240px;
+top: 878px;
+
+background: url("image3.png");
+}
+
+
+.item a{
+    display: block;
+    margin: 0.1rem 4rem ;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+#head{
+    font-weight: bold;
+}
+
+
+
+
+.fa-solid{
+    font-weight: 900;
+position: relative;
+margin: 0rem 0.5rem;
+
+
+top: 24px;
+}
+
+
+.se{
+    left: 210px;
+}
+#id{
+        font-weight: bold;
+        position: relative;
+        top: 18px;
+}
+
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+display: block;
+border: none;
+background: none;
+width: 100%;
+text-align: left;
+cursor: pointer;
+outline: none;
+color: black;
+margin: rem 2rem;
+margin-top: -3px;
+margin-left: 38px;
+  }
+  
+
+  .sidenav a:hover, .dropdown-btn:hover {
+    background-color: #d8dde5;
+    color: #040303;
+    border-radius: 1rem;
+  }
+  
+  
+  .main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+  }
+  
+  
+  .active {
+    background: #FFFFFF;
+    color: rgb(10, 9, 9);
+  }
+  
+ 
+  .dropdown-container {
+    display: none;
+    background: #FFFFFF;
+    padding-left: 8px;
+    
+  }
+  .dropdown-container a{
+    font-size: 15px;
+  }
+  
+  
+  .arrow{
+    position: relative;
+top: 2px;
+  }
+  .xmark{
+    position: relative;
+left: 219px;
+color: #5b4545;
+  }

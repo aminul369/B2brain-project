@@ -1,0 +1,43 @@
+.card{
+    position: absolute;
+width: 347px;
+height: 50px;
+left: 12px;
+top: 55px;
+
+
+}
+header{
+    position: relative;
+top: -2px;
+left: 98px;
+font-weight: bold;
+}
+a{
+    
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    left: 98px;
+    font-size: 15px;
+    color: #514040;
+    cursor: pointer;
+}
+img{
+    position: absolute;
+    border-radius: 2px;
+    width: 74px;
+    height: 63px;
+    background-color: #DF3B3B;
+    top: -7px;
+}
+#btn {
+    position: absolute;
+    left: 371px;
+    top: 56px;
+    padding: 8px 24px;
+    border: 1px solid orangered;
+    background-color: white;
+    cursor: pointer;
+    color: #FF6059;
+}

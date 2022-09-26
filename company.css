@@ -1,0 +1,35 @@
+
+
+
+
+.items p {
+    font-size: large;
+    font-weight: bold;
+    line-height: 47px;
+ }
+ #img{
+    width: 23vw;
+    height: auto;
+ }
+ .items a{
+   
+    text-decoration: none;
+    color: #513d3d;
+    font-size: 13px;
+    margin-left: 30px;
+ }
+ span{
+    text-decoration: none;
+    color: #513d3d;
+    font-size: 17px;
+    margin-left: 30px;
+ }
+ #hbtn {
+   color: black;
+background: aliceblue;
+border: 2px solid;
+border-color: orangered;
+padding: 6px;
+font-weight: bold;
+cursor: pointer;
+}
